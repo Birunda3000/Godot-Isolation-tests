@@ -1,0 +1,17 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://Player.tscn" type="PackedScene" id=1]
+[ext_resource path="res://textures/dungeon tiles/textureStone.png" type="Texture" id=2]
+[ext_resource path="res://bala.tscn" type="PackedScene" id=3]
+
+[node name="World" type="Node2D"]
+
+[node name="Player" parent="." instance=ExtResource( 1 )]
+position = Vector2( 527.424, 335.734 )
+z_index = 1
+bala = ExtResource( 3 )
+
+[node name="Sprite" type="Sprite" parent="."]
+position = Vector2( 516.721, 317.16 )
+scale = Vector2( 5.12, 4.32 )
+texture = ExtResource( 2 )
