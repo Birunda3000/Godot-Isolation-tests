@@ -15,13 +15,17 @@ _global_script_class_icons={
 
 [application]
 
-config/name="tpdown_final"
+config/name="game_test"
 run/main_scene="res://World.tscn"
 config/icon="res://icon.png"
 
 [autoload]
 
 Global="*res://global.gd"
+
+[debug]
+
+settings/stdout/print_fps=true
 
 [input]
 
